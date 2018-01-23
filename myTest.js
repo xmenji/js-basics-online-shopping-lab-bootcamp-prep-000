@@ -1,3 +1,14 @@
+cart = [{'orange': 1}, {'lemons': 5}, {'apples': 10}];
+
+function removeFromCart(item){
+  var itemisInCart = false;
+  
+  for(x = 0; x < cart.length; x++){
+    if(x.hasOwn)
+  }
+}
+
+/*
 //cart = [{'orange': 1}, {'lemons': 5}];
 cart = [{'orange': 1}, {'lemons': 5}, {'apples': 10}];
 //cart = [{'orange': 1}];
@@ -34,7 +45,7 @@ function viewCart() {
 
 
 viewCart();
-
+*/
 
 
 /*
