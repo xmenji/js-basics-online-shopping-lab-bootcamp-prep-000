@@ -19,6 +19,8 @@ function removeFromCart(item){
   
   
 }
+var lemons = 'lemons';
+removeFromCart(lemons);
 /*
 //cart = [{'orange': 1}, {'lemons': 5}];
 cart = [{'orange': 1}, {'lemons': 5}, {'apples': 10}];
