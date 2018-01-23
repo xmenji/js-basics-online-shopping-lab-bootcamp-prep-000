@@ -44,6 +44,12 @@ function viewCart() {
 
 function total() {
   // write your code here
+  
+  for(var x = 0; x < cart.length; x++){
+    for(var items in cart[x]){
+      
+    }
+  }
 }
 
 function removeFromCart(item) {
