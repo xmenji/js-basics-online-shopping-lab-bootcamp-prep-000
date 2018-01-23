@@ -29,7 +29,8 @@ function viewCart() {
        
        cartList += `${items} at $${cart[x][items]}`;
        
-       x !== cart.length - 1 ?  : ;
+       x !== cart.length - 1 ? cartList += ', ' :
+       ;
      }
    }
  }
