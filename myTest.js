@@ -14,6 +14,8 @@ function removeFromCart(item){
 }
 //var lemons = 'lemons';
 //console.log(cart[1].hasOwnProperty('lemons'));
+var something;
+console.log(something);
 removeFromCart();
 /*
 //cart = [{'orange': 1}, {'lemons': 5}];
