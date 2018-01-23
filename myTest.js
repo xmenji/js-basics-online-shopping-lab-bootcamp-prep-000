@@ -20,7 +20,7 @@ function removeFromCart(item){
   
 }
 //var lemons = 'lemons';
-removeFromCart('lemons');
+console.log(cart[0].hasOwnProperty(orange));
 /*
 //cart = [{'orange': 1}, {'lemons': 5}];
 cart = [{'orange': 1}, {'lemons': 5}, {'apples': 10}];
