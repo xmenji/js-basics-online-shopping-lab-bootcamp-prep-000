@@ -1,6 +1,6 @@
 //cart = [{'orange': 1}, {'lemons': 5}];
-//cart = [{'orange': 1}, {'lemons': 5}, {'apples': 10}];
-cart = [{'orange': 1}];
+cart = [{'orange': 1}, {'lemons': 5}, {'apples': 10}];
+//cart = [{'orange': 1}];
 console.log("Starting...");
 
 
