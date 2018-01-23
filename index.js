@@ -25,7 +25,9 @@ function viewCart() {
    var cartList = 'In your cart, you have ';
    
    for(var x = 0; x < cart.length; x++){
-     for (var items in cart)
+     for (var items in cart[x]){
+       
+     }
    }
  }
   else{
