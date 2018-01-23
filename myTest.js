@@ -5,7 +5,7 @@ function placeOrder(cardNumber) {
   var total = 100;
   if(cardNumber !== undefined){
     console.log(`Your total cost is ${total}, which will be charged to the cart ${cardNumber}.`);
-    cart.slice(cart.length);
+    cart = cart.slice(cart.length);
     console.log(cart);
   }
   else{
