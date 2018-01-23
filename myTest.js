@@ -1,5 +1,20 @@
 cart = [{'orange': 1}, {'lemons': 5}, {'apples': 10}];
 
+function placeOrder(cardNumber) {
+  // write your code here
+  if(cardNumber !== undefined){
+    console.log(`Your total cost is ${total()}, which will be charged to the cart ${cardNumber}.`);
+    cart.slice(cart.length);
+  }
+  else{
+    console.log("Sorry, we don't have a credit card on file for you.");
+  }
+}
+
+placeOrder(3455667);
+
+
+/*
 function removeFromCart(item){
   for(var x = 0; x < cart.length; x++){
     if(cart[x].hasOwnProperty(item)){
@@ -17,6 +32,8 @@ function removeFromCart(item){
 var something;
 console.log(something);
 removeFromCart();
+
+8/
 /*
 //cart = [{'orange': 1}, {'lemons': 5}];
 cart = [{'orange': 1}, {'lemons': 5}, {'apples': 10}];
