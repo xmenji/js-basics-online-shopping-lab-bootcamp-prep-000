@@ -27,7 +27,7 @@ function viewCart() {
    for(var x = 0; x < cart.length; x++){
      for (var items in cart[x]){
        
-       cartList += 
+       cartList += `${items} at $${}`; 
      }
    }
  }
