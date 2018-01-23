@@ -5,7 +5,7 @@ function removeFromCart(item){
   
   for(x = 0; x < cart.length; x++){
     for(var list in cart[x]){
-      if ()
+      if (list.hasOwnProperty(item))
     }
   }
 }
