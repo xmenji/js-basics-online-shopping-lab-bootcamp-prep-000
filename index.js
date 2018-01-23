@@ -48,9 +48,11 @@ function total() {
   
   for(var x = 0; x < cart.length; x++){
     for(var items in cart[x]){
-      total += cart[x][items];
+      total += parseInt(cart[x][items]);
     }
   }
+  
+  return total;
 }
 
 function removeFromCart(item) {
