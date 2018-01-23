@@ -4,7 +4,9 @@ function removeFromCart(item){
   var itemisInCart = false;
   
   for(x = 0; x < cart.length; x++){
-    if(x.hasOwn)
+    for(var list in cart[x]){
+      if ()
+    }
   }
 }
 
