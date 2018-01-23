@@ -33,6 +33,8 @@ function viewCart() {
        cartList += '.';
      }
    }
+   
+   console.log(cartList);
  }
   else{
     console.log('Your shopping cart is empty.');
