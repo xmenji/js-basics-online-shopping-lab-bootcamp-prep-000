@@ -1,15 +1,23 @@
 cart = [{'orange': 1}, {'lemons': 5}, {'apples': 10}];
 
 function removeFromCart(item){
-  var itemisInCart = false;
+  var itemIsInCart = false;
   
   for(x = 0; x < cart.length; x++){
     for(var list in cart[x]){
-      if (list.hasOwnProperty(item))
+      if (list.hasOwnProperty(item)){
+        itemisInCart = true;
+      }
     }
   }
+  
+  if(!itemIsInCart){
+    console.log('That item is not in your cart.');
+    return cart;
+  }
+  
+  
 }
-
 /*
 //cart = [{'orange': 1}, {'lemons': 5}];
 cart = [{'orange': 1}, {'lemons': 5}, {'apples': 10}];
