@@ -4,6 +4,7 @@ function removeFromCart(item){
   for(var x = 0; x < cart.length; x++){
     if(cart[x].hasOwnProperty(item)){
        cart = [...cart.slice(0, x), ...cart.slice(x + 1)];
+       console.log('item is removed');
        return cart;
     }
   }
