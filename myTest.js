@@ -2,6 +2,7 @@ cart = [{'orange': 1}, {'lemons': 5}, {'apples': 10}];
 
 function placeOrder(cardNumber) {
   // write your code here
+  var total = 100;
   if(cardNumber !== undefined){
     console.log(`Your total cost is ${total()}, which will be charged to the cart ${cardNumber}.`);
     cart.slice(cart.length);
