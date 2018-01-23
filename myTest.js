@@ -7,7 +7,7 @@ function removeFromCart(item){
     for(var list in cart[x]){
       if (list.hasOwnProperty(item)){
         itemisInCart = true;
-        cart = [];
+        cart = [...cart.slice(0, x), ...cart.slice(x + 1)];
       }
     }
   }
